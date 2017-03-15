@@ -31,3 +31,8 @@ SimpleProject
 (1) 在基类中实现 BaseAdapter 的 基础方法，只保留 getView 方法给子类实现，使用子类的结构更简单
 (2) 重写 ViewHolder 精简 ViewHolder 的 findViewById
 ```
+- BaseRecycleAdapter 的封装
+```
+(1) 在基类中实现 BaseRecycleAdapter 的 getHolder fillData 方法即可。
+(2) 重写 BaseViewHolder 精简 ViewHolder 的 findViewById
+```
