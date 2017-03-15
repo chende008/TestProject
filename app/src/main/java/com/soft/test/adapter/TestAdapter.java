@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.soft.test.R;
 import com.soft.test.base.TBaseAdapter;
-import com.soft.test.base.TBaseHolder;
+import com.soft.test.base.BaseHolder;
 import com.soft.test.model.TestData;
 
 import java.util.List;
@@ -39,7 +39,7 @@ public class TestAdapter extends TBaseAdapter<TestData> {
         return convertView;
     }
 
-    class ViewHolder extends TBaseHolder {//ViewHolder
+    class ViewHolder extends BaseHolder {//ViewHolder
 
         TextView tv_name;
 

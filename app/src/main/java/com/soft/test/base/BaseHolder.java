@@ -8,7 +8,7 @@ import android.view.View;
  * Author: chende
  */
 
-public class TBaseHolder {
+public class BaseHolder {
 
     @SuppressWarnings({"unchecked"})
     protected <T> T $(View view, int id) {

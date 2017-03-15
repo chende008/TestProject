@@ -9,7 +9,10 @@
         android:id="@+id/tv_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/padding_small"
+        android:padding="@dimen/padding_normal"
         android:textSize="@dimen/normal_text"/>
+
+    <TextView
+        style="@style/normal_line"/>
 
 </LinearLayout>
