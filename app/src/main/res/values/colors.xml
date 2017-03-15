@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用颜色值 -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="div_line">#eeeeee</color>
+    <color name="page_bg">#F4F4F4</color>
+    <color name="text_deep">#333333</color>
+    <color name="text_normal">#666666</color>
+    <color name="text_lighter">#999999</color>
+    <color name="text_lighter_gray">#a1a1a1</color>
+    <color name="text_hint">#bbbbbb</color>
+    <color name="text_link">#33b5e5</color>
+    <color name="title_text">#483126</color>
+    <color name="press_color">#e5e5e5</color>
+    <color name="press_color_deep">#bbbbbb</color>
+
+</resources>
