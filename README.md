@@ -20,13 +20,13 @@ SimpleProject
     public abstract void initViewAfterOnCreate();
     public abstract void initDataAfterOnCreate();
 ```
-- BaseFragment 的封闭
+- BaseFragment 的封装
 ```
 (1) 利用Fragment 的 onCreate 的调用在 onCreateView 的调用之前的特性，提交传入子 Fragment 的布局文件，
     并结合findViewById 的精简方法，实现在子Fragment 中分离 findViewById 与 onCreateView方法，
     最终实现子 Fragment 的类结构保持与 Activity 的结构近乎一致的模式。使代码可读性更强。
 ```
-- BaseAdapter 的封闭
+- BaseAdapter 的封装
 ```
 (1) 在基类中实现 BaseAdapter 的 基础方法，只保留 getView 方法给子类实现，使用子类的结构更简单
 (2) 重写 ViewHolder 精简 ViewHolder 的 findViewById
