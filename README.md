@@ -36,3 +36,11 @@ SimpleProject
 (1) 在基类中实现 BaseRecycleAdapter 的 getHolder fillData 方法即可。
 (2) 重写 BaseViewHolder 精简 ViewHolder 的 findViewById
 ```
+- MultiRecycleAdapter 的封装 + SwipeRefreshLayout
+```
+(1) 在基类中实现 MultiRecycleAdapter 的 getHolder fillData 方法即可。
+(2) 重写 BaseViewHolder 精简 ViewHolder 的 findViewById
+(3) 实现下拉刷新，滚动到底部自动加载
+(4) EmptyView 的实现，在不同网络或数据状态情分别显示不同的 View
+(5) 在 RecyclerView 在GridLayoutManager布局结构上添加 HeaderView 的正常展示处理
+```
