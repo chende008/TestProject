@@ -43,4 +43,5 @@ SimpleProject
 (3) 实现下拉刷新，滚动到底部自动加载
 (4) EmptyView 的实现，在不同网络或数据状态情分别显示不同的 View
 (5) 在 RecyclerView 在GridLayoutManager布局结构上添加 HeaderView 的正常展示处理
+![app](images/swipe_scroll.gif)
 ```
