@@ -17,4 +17,11 @@
     <color name="press_color">#e5e5e5</color>
     <color name="press_color_deep">#bbbbbb</color>
 
+    <array name="refresh_colors">
+        <item>@color/text_link</item>
+        <item>#ffff4444</item>
+        <item>#ffffbb33</item>
+        <item>#ff99cc00</item>
+    </array>
+
 </resources>

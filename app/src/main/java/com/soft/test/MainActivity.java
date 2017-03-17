@@ -15,6 +15,7 @@ public class MainActivity extends BaseActivity {
     private TextView tv_two;//2、BaseFragment 的基本封装
     private TextView tv_three;//3、BaseAdapter 的基本封装
     private TextView tv_four;//4、BaseRecyleAdapter 的基本封装
+    private TextView tv_five;//5、MultiRecycleAdapter 的基本封装
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +29,12 @@ public class MainActivity extends BaseActivity {
         tv_two = $(R.id.tv_two);
         tv_three = $(R.id.tv_three);
         tv_four = $(R.id.tv_four);
+        tv_five = $(R.id.tv_five);
     }
 
     @Override
     public void initDataAfterOnCreate() {
-        registerOnClickListener(this, tv_one, tv_two, tv_three, tv_four);
+        registerOnClickListener(this, tv_one, tv_two, tv_three, tv_four, tv_five);
     }
 
     @Override
@@ -50,6 +52,9 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.tv_four://4、BaseRecyleAdapter 的基本封装
                 intent = new Intent(mContext, TestFourActivity.class);
+                break;
+            case R.id.tv_five://5、MultiRecycleAdapter 的基本封装
+                intent = new Intent(mContext, TestFiveActivity.class);
                 break;
         }
         intent.putExtra("data", textView.getText());

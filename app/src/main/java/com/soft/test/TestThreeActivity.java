@@ -34,7 +34,7 @@ public class TestThreeActivity extends BaseActivity implements Handler.Callback 
     @Override
     public void initViewAfterOnCreate() {
         listView = $(R.id.listView);
-        backWithTitle("测试标题");
+        backWithTitle("BaseAdapter");
     }
 
     @Override

@@ -73,4 +73,17 @@
     <TextView
         style="@style/normal_line"/>
 
+    <TextView
+        android:id="@+id/tv_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableRight="@drawable/arrow_right"
+        android:padding="@dimen/padding_big"
+        android:text="5、MultiRecycleAdapter 的基本封闭"
+        android:textSize="@dimen/large_text"/>
+
+    <TextView
+        style="@style/normal_line"/>
+
 </LinearLayout>

@@ -21,7 +21,7 @@ public class TestTwoActivity extends BaseActivity {
 
     @Override
     public void initViewAfterOnCreate() {
-        backWithTitle(intent.getStringExtra("data"));
+        backWithTitle("BaseFragment");
     }
 
     @Override

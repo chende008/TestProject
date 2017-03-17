@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/error_view_top"
+            android:gravity="center"
+            android:src="@drawable/img_loading"/>
+
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_big"
+            android:gravity="center"
+            android:text="正在加载中..."
+            android:textColor="@color/text_lighter_gray"
+            android:textSize="@dimen/normal_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/network_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/error_view_top"
+            android:gravity="center"
+            android:src="@drawable/nodata_nonetwork"/>
+
+        <TextView
+            android:id="@+id/tv_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_big"
+            android:gravity="center"
+            android:text="网络不可用，请检查网络"
+            android:textColor="@color/text_lighter_gray"
+            android:textSize="@dimen/normal_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/no_data_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_nodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/error_view_top"
+            android:gravity="center"
+            android:src="@drawable/img_nodata"/>
+
+        <TextView
+            android:id="@+id/tv_nodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_big"
+            android:gravity="center"
+            android:text="暂无数据"
+            android:textColor="@color/text_lighter_gray"
+            android:textSize="@dimen/normal_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/load_fail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/error_view_top"
+            android:gravity="center"
+            android:src="@drawable/icon_loading_error"/>
+
+        <TextView
+            android:id="@+id/tv_fail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_big"
+            android:gravity="center"
+            android:text="加载失败，下拉重试..."
+            android:textColor="@color/text_lighter_gray"
+            android:textSize="@dimen/normal_text"/>
+    </LinearLayout>
+
+</RelativeLayout>

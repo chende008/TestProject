@@ -26,7 +26,7 @@ public class TestOneActivity extends BaseActivity {
     public void initViewAfterOnCreate() {
         tv_test = $(R.id.tv_test);
         registerOnClickListener(this, tv_test);//注册点击事件
-        backWithTitle(intent.getStringExtra("data"));
+        backWithTitle("BaseActivity");
     }
 
     @Override

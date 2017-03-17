@@ -35,7 +35,7 @@ public class TestFourActivity extends BaseActivity implements Handler.Callback {
     @Override
     public void initViewAfterOnCreate() {
         recyleView = $(R.id.recyleView);
-        backWithTitle("测试标题");
+        backWithTitle("BaseRecyleAdapter");
     }
 
     @Override
